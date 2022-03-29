@@ -5,7 +5,7 @@ metadata:
   labels:
     app: helloworld
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: helloworld
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: helloworld-container
-        image: xldevdocker/helloworld:526ed47f9c598775f81fad95feb449f42cd36604
+        image: xldevdocker/helloworld:e0ff15582fcc1b16294cc8e78f3b96ebe3be7957
         ports:
         - containerPort: 8080
 ---
