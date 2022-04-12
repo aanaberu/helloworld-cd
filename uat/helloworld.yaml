@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: helloworld-uat-container
-        image: xldevdocker/helloworld:Infinity
+        image: xldevdocker/helloworld:ddcb16d
         ports:
         - containerPort: 8085
 ---
