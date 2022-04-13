@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: helloworld-uat-container
-        image: xldevdocker/helloworld:8590ec9
+        image: xldevdocker/helloworld:bcf414f
         ports:
         - containerPort: 8085
 ---
